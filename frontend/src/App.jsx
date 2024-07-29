@@ -7,10 +7,10 @@ import './App.css';
 
 function App() {
   return (
-    <div className=' text-justify bg-black font-3xl ' >
+    <div  >
       <nav>
         <ul>
-          <div >
+          <div className=' text-justify bg-blue-400  ' >
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/contact">Contact</Link>
