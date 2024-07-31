@@ -3,8 +3,8 @@ import React, {useState} from "react";
 function Home(){
     // const message()
     return(
-        <div>
-            <h1>Wellcome</h1>
+        <div className=" text-center text-4xl bg-gradient-to-r from-cyan-500 to-blue-500 " >
+            <h1>YungGa Shop</h1>
         </div>
 
     )
