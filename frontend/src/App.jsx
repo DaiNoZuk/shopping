@@ -10,7 +10,7 @@ function App() {
     <div  >
       <nav>
         <ul>
-          <div className=' text-center bg-gradient-to-r from-cyan-500 to-blue-500 first:pt-0   ' >
+          <div  >
             <Link to="/">Home</Link>
             <Link to="/about">About</Link>
             <Link to="/contact">Contact</Link>
