@@ -2,6 +2,7 @@ import React from "react";
 import { BsCart3 } from "react-icons/bs";
 import { MdAccountCircle } from "react-icons/md";
 import { useNavigate } from 'react-router-dom';
+import Bg from '../images/Homepage/bg.png';
 
 function Homepage() {
     const navigate = useNavigate();
@@ -22,18 +23,23 @@ function Homepage() {
                     <BsCart3 />
                     <MdAccountCircle />
                 </div>
-
             </div>
             <div className=" bg-[#F2F0F1] h-screen ">
                 <div>
-                    <div className=" absolute left-[100px] top-[160px] text-[64px] font-concert-one">
+                    <div className=" flex  left-[100px] top-[160px] text-[64px] font-concert-one">
                         <h1 className="">FIND CLOTHES <br />
                             THAT MATCHES <br />
                             YOUR STYLE</h1>
                     </div>
-                    <div className=" absolute text-[16px] top-[485px] left-[100px]">
+                    <div className=" flex text-[16px] top-[485px] left-[100px]">
                         <p>Browse through our diverse range of meticulously crafted garments, designed<br/> 
                         to bring out your individuality and cater to your sense of style.</p>
+                    </div>
+                    {/* <img src={Bg} alt="Bg" className=" w-[1100px] mt-1.5 align-center" /> */}
+                </div>
+                <div className=" bg-black ">
+                    <div>
+                        <span className="">asdasdsad</span>
                     </div>
                 </div>
             </div>

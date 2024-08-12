@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { useNavigate } from 'react-router-dom';
 import { HiCheckCircle } from "react-icons/hi";
-import Homepage from '../images/Homepage.png';
-import Homepage1 from '../images/Homepage1.png';
-import ProductDetailPage from '../images/ProductDetailPage.png';
-import ProductDetailPage2 from '../images/ProductDetailPage2.png';
-import CategoryPage from '../images/CategoryPage.png';
-import Cart from '../images/Cart.png';
+import Homepage from '../images/DefaultPage/Homepage.png';
+import Homepage1 from '../images/DefaultPage/Homepage1.png';
+import ProductDetailPage from '../images/DefaultPage/ProductDetailPage.png';
+import ProductDetailPage2 from '../images/DefaultPage/ProductDetailPage2.png';
+import CategoryPage from '../images/DefaultPage/CategoryPage.png';
+import Cart from '../images/DefaultPage/Cart.png';
 
 function Default() {
     const navigate = useNavigate();
