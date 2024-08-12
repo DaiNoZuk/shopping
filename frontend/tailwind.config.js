@@ -6,6 +6,11 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      'integral': ['Integral CF', 'sans-serif'],
+      'shatoshi': ['Shatochi'],
+      // คุณสามารถเพิ่มฟอนต์อื่นๆ ได้ที่นี่
+    },
   },
   plugins: [],
 }
