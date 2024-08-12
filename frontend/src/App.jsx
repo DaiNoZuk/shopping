@@ -1,26 +1,25 @@
 import React from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
-import Home from './page/Home';
-import About from './page/About';
-import Contact from './page/Contact';
+import Default from './page/Default';
+import CategoryPage from './page/CategoryPage';
+import ProductDetailPage from './page/ProductDetailPage';
+import Homepage from './page/Homepage';
+import Cart from './page/Cart';
+import MobileResponsive from './page/MobileResponsive';
 import './App.css';
+
 
 function App() {
   return (
     <div  >
-      <nav>
-        <ul>
-          <div  >
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
-            <Link to="/contact">Contact</Link>
-          </div>
-        </ul>
-      </nav>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<Default />} />
+        <Route path="/homepage" element={<Homepage />} />
+        <Route path="/productDetailPage" element={<ProductDetailPage />} />
+        <Route path='/categoryPage' element={<CategoryPage />} />
+        <Route path='/cart' element={<Cart />} />
+        <Route path='/mobileResponsive' element={<MobileResponsive />} />
+
       </Routes>
     </div>
   );
