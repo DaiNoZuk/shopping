@@ -9,6 +9,7 @@ export default {
     fontFamily: {
       'integral': ['Integral CF', 'sans-serif'],
       'shatoshi': ['Shatochi'],
+      'concert-one': ['"Concert One"', 'sans-serif'],
       // คุณสามารถเพิ่มฟอนต์อื่นๆ ได้ที่นี่
     },
   },

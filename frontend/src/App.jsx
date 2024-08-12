@@ -12,7 +12,7 @@ import './App.css';
 
 function App() {
   return (
-    <div  >
+    <div>
       <Routes>
         <Route path="/" element={<Default />} />
         <Route path="/homepage" element={<Homepage />} />

@@ -22,7 +22,7 @@ function Default() {
         <div className="flex flex-col items-center py-5 h-screen bg-[#EDEDED] " >
             <div className="relative mb-5 text-center ">
                 <h1 className="absolute w-[1072px] h-[110px] left-[calc(50%_-_1072px/2)] not-italic font-bold text-[76px] 
-          leading-[76px] flex items-center text-center text-black top-[65px] ">
+          leading-[76px] flex items-center text-center text-black top-[65px] font-concert-one ">
                     E-COMMERCE WEBSITE TEMPLATE (FREEBIE)
                 </h1>
             </div>

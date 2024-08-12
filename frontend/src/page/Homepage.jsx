@@ -1,13 +1,17 @@
 import React from "react";
 import { BsCart3 } from "react-icons/bs";
 import { MdAccountCircle } from "react-icons/md";
+import { useNavigate } from 'react-router-dom';
 
 function Homepage() {
-
+    const navigate = useNavigate();
+    const gotoDefault = () => {
+        navigate('/'); 
+    };
     return (
         <div>
             <div className="flex flex-row justify-center items-center py-2 gap-[40px] ">
-                <span className="text-[32px] font-bold">SHOP.CO</span>
+                <span className="text-[32px] font-bold " onClick={gotoDefault}>SHOP.CO</span>
                 <div className="flex flex-row justify-center items-center px-0 gap-[35px]">
                     <span className="">shop</span>
                     <button className="">On Sale</button>
@@ -22,7 +26,7 @@ function Homepage() {
             </div>
             <div className=" bg-[#F2F0F1] h-screen ">
                 <div>
-                    <div className=" absolute left-[100px] top-[160px] text-[64px]">
+                    <div className=" absolute left-[100px] top-[160px] text-[64px] font-concert-one">
                         <h1 className="">FIND CLOTHES <br />
                             THAT MATCHES <br />
                             YOUR STYLE</h1>
@@ -37,10 +41,3 @@ function Homepage() {
     )
 };
 export default Homepage;
-
-// width: 577px;
-// height: 173px;
-// top: 237px;
-// left: 100px;
-// gap: 0px;
-// opacity: 0px;
